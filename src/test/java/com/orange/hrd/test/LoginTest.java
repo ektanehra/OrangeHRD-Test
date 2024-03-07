@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
 		Reporter.log("Login Page Header : " + loginPO.getLoginHeader(), true);
 		Assert.assertEquals(loginPO.getLoginHeader(), "Login");
 
-		LoginPage loginO = new LoginPage(driver);
+		LoginPage loginPO = new LoginPage(driver);
 
 		
 		Reporter.log("Login test end", true);

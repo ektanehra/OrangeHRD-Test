@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
 import com.orange.hrd.pages.BasePage;
+import com.orange.hrd.pages.ClaimsPage;
 import com.orange.hrd.pages.EmployeePage;
 import com.orange.hrd.pages.LoginPage;
 import com.orange.hrd.utils.DriverManager;
@@ -29,6 +30,7 @@ public class BaseTest {
 	public LoginPage loginPO;
 	public BasePage basePO;
 	public EmployeePage empPO;
+	public ClaimsPage claimPO;
 	public DriverManager dm;
 	public WebDriverWait webWait;
 
